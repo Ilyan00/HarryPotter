@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Liste de Films</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="films-container">
+      <div id="film-template" class="film" style="display: none">
+        <img
+          class="film-img"
+          src="https://hp-api.lainocs.fr/images/harry-potter.png"
+          alt="harry-potter"
+        />
+        <h2 class="film-title">Harry Potter</h2>
+        <p class="film-description">Gryffindor</p>
+        <a class="film-details-link" href="details.html?slug="
+          >Voir les détails</a
+        >
+      </div>
+    </div>
+
+    <div class="pagination">
+      <button id="prev">Précédent</button>
+      <span id="current-page">1</span>
+      <button id="next">Suivant</button>
+    </div>
+    <script src="harrypotter/script.js"></script>
+  </body>
+</html>
